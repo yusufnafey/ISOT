@@ -7,11 +7,11 @@ const Navigation = props => {
     <div className="navigation">
       <div className="top">
         <div className="container">
-          {/* <img
+          <img
             className="logo"
-            src={require("../images/isotLogo.png")}
+            src={require("./images/isotLogo.png")}
             alt="isot logo"
-          /> */}
+          />
         </div>
       </div>
       <div className="bottom">
