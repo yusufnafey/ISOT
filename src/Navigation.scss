@@ -1,0 +1,38 @@
+.navigation {
+  .top {
+    // background: rgb(197, 197, 197);
+    background: rgb(140, 203, 76);
+
+    .logo {
+      width: 300px;
+      margin: 20px 0 0 20px;
+    }
+  }
+
+  .bottom {
+    background: rgb(140, 203, 76);
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+
+      a {
+        margin: 0 3% 1%;
+        font-size: 2rem;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        transition: 0.5s all;
+
+        &:hover {
+          background: black;
+          color: white;
+          transition: 0.5s all;
+          // padding: 5px 10px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
