@@ -1,11 +1,11 @@
 import React from "react";
 import "./Home.scss";
-// import PrayerTime from "./PrayerTime/PrayerTime";
+import PrayerTime from "./PrayerTime";
 
 const Home = props => {
   return (
     <div className="container">
-      {/* <PrayerTime /> */}
+      <PrayerTime />
       <div className="hi">hello</div>
     </div>
   );
