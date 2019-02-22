@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.scss";
+import "./Styling/Home.scss";
 import PrayerTime from "./PrayerTime";
 
 const Home = props => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./PrayerTime.scss";
+import "./Styling/PrayerTime.scss";
 
 const NavBar = props => {
   return (

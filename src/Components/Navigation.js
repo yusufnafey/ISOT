@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navigation.scss";
+import "./Styling/Navigation.scss";
 import { Link } from "react-router-dom";
 
 const Navigation = props => {
@@ -9,7 +9,7 @@ const Navigation = props => {
         <div className="container">
           <img
             className="logo"
-            src={require("./images/isotLogo.png")}
+            src={require("../images/isotLogo.png")}
             alt="isot logo"
           />
         </div>

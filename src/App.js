@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import "./App.scss";
-import Home from "./Home";
-import Navigation from "./Navigation";
+import Home from "./Components/Home";
+import Navigation from "./Components/Navigation";
 
 class App extends Component {
   render() {
