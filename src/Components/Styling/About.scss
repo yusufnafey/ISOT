@@ -1,0 +1,54 @@
+.about-page {
+  text-align: center;
+  height: 2000px;
+
+  .titles {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 500;
+    background: black;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .content {
+    border: 1px solid black;
+
+    .text {
+    }
+
+    .member-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .member-container {
+        border: 1px solid red;
+        width: 30%;
+        margin: 0 auto 50px;
+
+        .member-image {
+          img {
+            width: 100%;
+          }
+
+          .overlay {
+          }
+        }
+
+        .member-content {
+          .member-name {
+            font-size: 2.9rem;
+            font-weight: 600;
+          }
+
+          .member-job {
+            font-size: 2rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
