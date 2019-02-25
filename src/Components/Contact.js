@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styling/Contact.scss";
+import "./Contact.scss";
 
 const Contact = props => {
   return (
