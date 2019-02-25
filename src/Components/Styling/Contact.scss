@@ -28,6 +28,34 @@
       flex-direction: column;
       justify-content: space-between;
       height: 400px;
+
+      li {
+        display: flex;
+        align-items: center;
+
+        .logo-background {
+          width: 70px;
+          height: 70px;
+          background: rgb(140, 203, 76);
+          text-align: center;
+          border-radius: 50%;
+
+          i {
+            line-height: 70px;
+            color: black;
+          }
+        }
+
+        .contact-text {
+          font-size: 3rem;
+          color: black;
+          margin-left: 30px;
+        }
+      }
+    }
+
+    .map {
+      justify-content: end;
     }
   }
 }
